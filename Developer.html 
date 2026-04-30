@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Developer | ENG/MOUSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="engineering.html">Ancient History</a></li>
+            <li><a href="Developer.html">Developer</a></li>
+            <li><a href="Conclusion.html">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <div class="developer-container">
+        <header class="dev-header">
+            <img src="me.jpg" alt="ENG/MOUSA" class="dev-avatar">
+            <h1>ENG/MOUSA</h1>
+            <p>Engineering Student & Professional Bot Developer</p>
+        </header>
+
+        <section class="skills-section">
+            <h2>Technical Skills</h2>
+            <div class="skill-card">
+                <span>Python & Automation</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Termux & Linux Environment</span>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Web Development (HTML/CSS)</span>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>OSINT & Security Tools</span>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <h2>Featured Projects</h2>
+            <div class="project-item">
+                <h3>Telegram Utility Bot</h3>
+                <p>A specialized bot for managing engineering materials and PDF conversion.</p>
+            </div>
+            <div class="project-item">
+                <h3>YouTube Content Downloader</h3>
+                <p>Automated script for searching and retrieving media efficiently.</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
